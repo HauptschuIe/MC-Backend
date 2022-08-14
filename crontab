@@ -1,0 +1,3 @@
+#run python script every day
+0 1 * * * cd ~/../app && ../usr/local/bin/python ../app/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+
